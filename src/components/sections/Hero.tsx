@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
               </div>
             </div> */}
             <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
-  <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 opacity-10 dark:opacity-20 animate-pulse-slow"></div>
+  {/* <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 opacity-10 dark:opacity-20 animate-pulse-slow"></div> */}
 
   <div className="absolute top-0 right-0 -mr-4 -mt-4">
     <div className="w-24 h-24 md:w-32 md:h-32 rounded-lg bg-blue-100 dark:bg-blue-900 flex items-center justify-center transform rotate-12 shadow-lg">
@@ -103,7 +103,7 @@ const Hero: React.FC = () => {
     </div>
   </div>
 
-  <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 border-8 border-white dark:border-gray-800 shadow-xl overflow-hidden flex items-center justify-center">
+  <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 border-8 border-white dark:border-gray-800 overflow-hidden flex items-center justify-center">
     <img
       src="https://media.licdn.com/dms/image/v2/D5603AQFhedbH5p4HZA/profile-displayphoto-shrink_400_400/B56ZaGWS6pHsAk-/0/1746010714973?e=1751500800&v=beta&t=c2zLdXNcK16rNq0cFTb_g88FuS4mzIgqPkP_OrNghJ4"
       alt="Profile"
