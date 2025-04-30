@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="text-xl font-bold text-gray-800 dark:text-white">
-          Jayant<span className="text-blue-600 dark:text-blue-400">Kumar</span>
+          Jayant<span className="text-blue-600 dark:text-blue-400">   Kumar</span>
         </a>
 
         {/* Desktop Navigation */}

@@ -58,11 +58,13 @@ const achievements: Achievement[] = [
   {
     id: 1,
     title: 'PicoCTF 2025',
-    organization: 'Carnegie Mellon University',
+    organization: 'picoCTF',
     date: 'April 2025',
     description: 'Participated in this prestigious global cybersecurity competition focused on web exploitation, cryptography, binary exploitation, and reverse engineering.',
-    result: 'Global Rank: 437'
+    result: 'Global Rank: 437',
+   
   }
+  
 ];
 
 const CertificationCard: React.FC<{ certification: Certification }> = ({ certification }) => {

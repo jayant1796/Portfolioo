@@ -66,8 +66,44 @@ const projects: Project[] = [
     githubUrl: 'https://github.com/jayant1796/nta-tool',
     imageUrl: 'https://images.pexels.com/photos/4527437/pexels-photo-4527437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     category: 'security'
+  },
+  {
+    id: 4,
+    title: 'Annadaata App',
+    period: 'Jan 2024 - Mar 2024',
+    description: 'A user-friendly agricultural assistance app aimed at empowering farmers with real-time crop guidance, weather updates, and market price insights.',
+    technologies: ['Flutter', 'Firebase', 'Google Maps API', 'REST APIs'],
+    features: [
+      'Provides crop-specific guidance based on location and season',
+      'Displays real-time weather forecasts and alerts for farmers',
+      'Integrates market price tracking for major crops in nearby mandis',
+      'Supports multilingual interface to enhance accessibility'
+    ],
+    icon: <Server className="text-green-600 dark:text-green-400" size={28} />,
+    githubUrl: 'https://github.com/jayant1796/annadaata-app',
+    imageUrl: 'https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'web'
+  },
+  {
+    id: 5,
+    title: 'Voice Assistant',
+    period: 'Feb 2024 - Mar 2024',
+    description: 'An intelligent voice assistant capable of responding to user commands, performing tasks, and interacting through speech recognition and synthesis.',
+    technologies: ['Python', 'SpeechRecognition', 'pyttsx3', 'APIs'],
+    features: [
+      'Accepts voice commands and responds using text-to-speech',
+      'Can open websites, perform searches, and provide system updates',
+      'Supports modular command handling for easy extensibility',
+      'Simple and intuitive voice-based interaction'
+    ],
+    icon: <Search className="text-yellow-600 dark:text-yellow-400" size={28} />,
+    githubUrl: 'https://github.com/jayant1796/Voice_assistant',
+    imageUrl: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'web'
   }
 ];
+
+
 
 const Projects: React.FC = () => {
   const [filter, setFilter] = useState('all');

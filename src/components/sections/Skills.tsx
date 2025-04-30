@@ -114,17 +114,17 @@ const Skills: React.FC = () => {
   ];
   
   const securitySkills = [
-    { name: 'Metasploit', percentage: 85, color: 'bg-red-600' },
-    { name: 'Burp Suite', percentage: 90, color: 'bg-red-500' },
-    { name: 'Wireshark', percentage: 80, color: 'bg-red-600' },
-    { name: 'Nmap/Sqlmap', percentage: 85, color: 'bg-red-500' },
+    { name: 'Metasploit', percentage: 85, color: 'bg-blue-600' },
+    { name: 'Burp Suite', percentage: 90, color: 'bg-blue-500' },
+    { name: 'Wireshark', percentage: 80, color: 'bg-blue-600' },
+    { name: 'Nmap/Sqlmap', percentage: 85, color: 'bg-blue-500' },
   ];
   
   const softSkills = [
-    { name: 'Leadership', percentage: 85, color: 'bg-green-600' },
-    { name: 'Problem-Solving', percentage: 90, color: 'bg-green-500' },
-    { name: 'Communication', percentage: 80, color: 'bg-green-600' },
-    { name: 'Project Management', percentage: 75, color: 'bg-green-500' },
+    { name: 'Leadership', percentage: 85, color: 'bg-purple-600' },
+    { name: 'Problem-Solving', percentage: 90, color: 'bg-purple-500' },
+    { name: 'Communication', percentage: 80, color: 'bg-purple-600' },
+    { name: 'Project Management', percentage: 75, color: 'bg-purple-500' },
   ];
   
   return (
