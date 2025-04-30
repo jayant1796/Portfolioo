@@ -105,7 +105,7 @@ const Hero: React.FC = () => {
 
   <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 border-8 border-white dark:border-gray-800 shadow-xl overflow-hidden flex items-center justify-center">
     <img
-      src="src\components\sections\image.jpg"
+      src="https://media.licdn.com/dms/image/v2/D5603AQFcGY-Hu4viDg/profile-displayphoto-shrink_400_400/B56ZaGVemmGkAg-/0/1746010500347?e=1751500800&v=beta&t=sBiJ9JK5KmJHxptQF6hBZ5RMK5J-SJPWg8lRPG1Pf4w"
       alt="Profile"
       className="w-full h-full object-cover"
     />
